@@ -10,7 +10,7 @@ public class Main {
         System.out.println(add(3,5));
         System.out.println(add(3.0, 5.6));
         Main myObj = new Main();
-        System.out.println(myObj.add(1.2, 2.3));
+        System.out.println(myObj.add(1.2F,2.2F));
         
     }
     // static means method belongs to the class rather than object
@@ -37,7 +37,7 @@ public class Main {
         return sum;
     }
     // non-static methods can be called by creating an object whereas static methods do not need an object to call it.
-    float add (float i,float j){
+    float add(float i,float j){
         return i+j;
     }
 
