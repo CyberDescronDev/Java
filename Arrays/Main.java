@@ -10,7 +10,7 @@ public class Main {
         System.out.println(strArr[1]);
         System.out.println(strArr[2]);
         System.out.println("------------------------------");
-
+        
         for (String string : strArr) {
             System.out.println(string);
         }
