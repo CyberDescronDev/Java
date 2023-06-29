@@ -5,6 +5,7 @@ import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
+        // Key value pairs
         HashMap<String, Integer> employees = new HashMap<>();
         employees.put("Keylane", 12_000);
         employees.put("Alex",20_000);
